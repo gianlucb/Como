@@ -30,16 +30,16 @@ In this demo you can find some Service Fabric topics:
 ## Build and Deploy
 
 - .\Build.ps1
-- .\DeployLocal
+- .\DeployLocal.ps1
 
 ## Run
 You can use the swagger UI at http://localhost/swagger to manually invoke the APIs or use the *TestClient* project in the *src\Extra* folder
 
-**Note*: if you want to test it online you need to change the Placement Constraints of the **Como.Public.Event.Frontend** type:*
+**Note*: The public frontend website is forced to be deployed in a specific node type. If you want to test it online you need to change the Placement Constraints of the **Como.Public.Event.Frontend** type to an existing node type:*
 
 ```xml
    <PlacementConstraints>
       NodeType == NodeType2
    </PlacementConstraints>
 ```
-and do the same in the event manager code
+and do the same change in the event manager code
