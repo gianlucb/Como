@@ -2,7 +2,7 @@
 This simple project is a demo for a Service Fabric solution that dynamically creates Service Fabric applications on-demand.
 The idea is to demonstrate how to create a new Service Fabric application upon a client request.
 
-I choose to create a simple Asp.Net core website for events management as "target" application. A client, via a simple API, can request the creation of a website that will be dynamically created:
+I have chosen to create a simple Asp.Net core website for events management as "target" application. A client, via a simple API, can request the creation of a website that will be dynamically created:
 
 ![solution](doc/project_como.png)
 
