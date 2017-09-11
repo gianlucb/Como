@@ -15,7 +15,7 @@ The solution is composed by:
 * **FrontEnd** (Stateless): AspNet Core Web Api, gateway for all the client calls
 * **EventManager** (statefull): this service creates the new service fabric application. Use a queue to decouple the request from the creation (that takes time)
 * **AgendaManager** (statefull): keeps the agendas in a replicated dictionary
-* **Public Frontend** (stateless): is the website that is created dynamically. This use the other services to display the agenda 
+* **Public Frontend** (stateless): is the website that is created dynamically. This uses the other services to display the agenda 
 
 In this demo you can find some Service Fabric topics:
 - How to dynamically create SF application
