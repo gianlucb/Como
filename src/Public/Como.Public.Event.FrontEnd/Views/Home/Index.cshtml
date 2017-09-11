@@ -1,0 +1,19 @@
+﻿@using Como.Model;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>@ViewData["Message"]</h1>
+<h2>Agenda</h2>
+<div class="table-responsive">
+    <table class="table tabel-striped">
+        <tbody>
+            @foreach (Session s in ViewBag.Agenda.Sessions)
+            {
+                <tr>
+                    <td><h4>@s.ID - @s.Title (@s.Level, @s.Duration mins)</h4></td>
+                </tr>                
+            }
+        </tbody>
+    </table>
+</div>

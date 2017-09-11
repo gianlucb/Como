@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <!-- Add your custom configuration sections and parameters here -->
+
+  <Section Name="ComoConfig">
+    <Parameter Name="PersonManagerUri" Value="fabric:/Como.Cluster/PersonManager" />
+    <Parameter Name="FeedbackManagerUri" Value="fabric:/Como.Cluster/FeedbackManager" />
+    <Parameter Name="EventManagerUri" Value="fabric:/Como.Cluster/EventManager" />
+    <Parameter Name="AgendaManagerUri" Value="fabric:/Como.Cluster/AgendaManager" />
+  </Section>
+
+</Settings>
