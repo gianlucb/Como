@@ -1,4 +1,4 @@
-# Service Fabric Demo
+# Service Fabric, On-Demand Applications Demo
 This simple project is a demo for a Service Fabric solution that dynamically creates Service Fabric applications on-demand.
 The idea is to demonstrate how to create a new Service Fabric application upon a client request.
 
